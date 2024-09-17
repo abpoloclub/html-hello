@@ -1,0 +1,41 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.main-container {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    background-color: #fff;
+}
+
+.photo-container>div:nth-child(1),
+.photo-container>div:nth-child(3) {
+    padding: 0 2rem;
+}
+
+.photo-container>div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
